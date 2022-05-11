@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+table#member{
+    width : 2000px;
+}
+
+table#member td, table#member th{
+    border : 1px solid;
+    
+    
+}
+
+table#member thead{
+    background-color : #F8FAFD;
+    position : sticky;
+    top:0;
+    z-index : 1;
+}
+
+table#member th:first-child, table#member td:first-child{
+    background-color : #F8FAFD;
+    position : sticky;
+    left : 0;
+    
+    
+}
+    
+table#member td:nth-child(2), table#member th:nth-child(2){
+        background-color : #F8FAFD;
+        position : sticky;
+        left : 33px;
+}
+
